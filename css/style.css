@@ -1,0 +1,45 @@
+#elem1 {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: seagreen;
+    padding: 1px;
+}
+
+#elem2 {
+    width: 140px;
+    height: 140px;
+    margin: 30px;
+    background-color: darkcyan;
+    padding: 1px;
+}
+
+#elem3 {
+    width: 80px;
+    height: 80px;
+    margin: 30px;
+    background-color: darkred;
+    padding: 1px;
+}
+
+#parent {
+    background-color: burlywood;
+    display: inline-block;
+    width: 300px;
+}
+
+#block:not(.active) {
+    display: none;
+}
+
+li {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: burlywood;
+    border: 2px solid seagreen;
+    border-radius: 5px;
+}
+
+li.color {
+    background-color: darkred;
+}
